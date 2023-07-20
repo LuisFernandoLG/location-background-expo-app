@@ -2,9 +2,12 @@
 I made this repo as an example of how to use Location and Background task in order to send my location to my backend or in this case just show a notification with the coords even if the app is minimized or the phone is locked.
 
 ## Important🛑
-You have to build  your app. Generate apk to test it. For some reason It does not work in development flow.
+Background feature will not work as expected unless you create a "development build" of your app.
+[What is it?](https://docs.expo.dev/develop/development-builds/introduction/)
+[Development builds Installation](https://docs.expo.dev/develop/development-builds/installation/)
+[Create a development build](https://docs.expo.dev/develop/development-builds/installation/)
 
-
+Or watch this [video](https://youtu.be/LUFHXsBcW6w)
 
 ## Configuration
 
@@ -42,3 +45,8 @@ on your *app.json* add next permissions
       ]
     ],
 ```
+
+
+# Issues
+For some reason, after the phone is locked the location is sent correctly for 3-4 minutes and then just stops. It works properly after the phone is unlocked.
+If you find any solutions to this, please let me know.
