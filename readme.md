@@ -9,6 +9,8 @@ Background feature will not work as expected unless you create a "development bu
 
 Or watch this [video](https://youtu.be/LUFHXsBcW6w)
 
+If you don't want to use the "development mode", just build the apk and try it.
+
 ## Configuration
 
 on your *app.json* add next permissions
